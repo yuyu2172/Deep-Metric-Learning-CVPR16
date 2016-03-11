@@ -1,4 +1,5 @@
 # Deep Metric Learning via Lifted Structured Feature Embedding
+This repository has the source code and the Stanford Online Products dataset for the paper "Deep Metric Learning via Lifted Structured Feature Embedding" (CVPR16).
 
 ## Citing this work
 If you find this work useful in your research, please consider citing:
@@ -10,10 +11,16 @@ If you find this work useful in your research, please consider citing:
         Year = {2016}
     }
 
-## Download prerequsites
-Install prerequsites for `Caffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
+## Installation
+1. Install prerequsites for `Caffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
+2. Compile the `Caffe-Deep-Metric-Learning-CVPR16` submodule.
 
-## 
+## Training procedure 
+1. Download pretrained GoogLeNet model from [here](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
+2. Generate the LMDB file to convert the training set of images to the DB format.
+3. Create the `.prototxt` files.
+4. Inside the caffe submodule, launch training.
+`caffe/build/tools/caffe train -solver [path-to-training-prototxt-file] -weights [path-to-pretrained-googlenet] -gpu [gpuid]`
 
 ## Licence
 MIT Licence
