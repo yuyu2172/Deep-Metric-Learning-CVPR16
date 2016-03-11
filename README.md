@@ -1,4 +1,4 @@
-# Deep-Metric-Learning-CVPR16
+# Deep Metric Learning via Lifted Structured Feature Embedding
 
 ## Citing this work
 If you find this work useful in your research, please consider citing:
@@ -11,7 +11,7 @@ If you find this work useful in your research, please consider citing:
     }
 
 ## Download prerequsites
-
+Download and install `Caffe` and `pycaffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
 
 ## Licence
 MIT Licence
