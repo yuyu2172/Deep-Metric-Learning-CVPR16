@@ -1,0 +1,3 @@
+[submodule "Caffe-Deep-Metric-Learning-CVPR16"]
+	path = Caffe-Deep-Metric-Learning-CVPR16
+	url = https://github.com/rksltnl/Caffe-Deep-Metric-Learning-CVPR16
