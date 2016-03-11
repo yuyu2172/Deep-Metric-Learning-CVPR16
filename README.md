@@ -11,7 +11,9 @@ If you find this work useful in your research, please consider citing:
     }
 
 ## Download prerequsites
-Download and install `Caffe` and `pycaffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
+Install prerequsites for `Caffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
+
+## 
 
 ## Licence
 MIT Licence
