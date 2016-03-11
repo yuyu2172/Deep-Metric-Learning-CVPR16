@@ -18,7 +18,7 @@ If you find this work useful in your research, please consider citing:
 ## Training procedure 
 1. Download pretrained GoogLeNet model from [here](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
 2. Generate the LMDB file to convert the training set of images to the DB format.
-3. Create the `.prototxt` files.
+3. Create the `.prototxt` file. Please refer to the included `.prototxt` files in `model/` directory for examples.
 4. Inside the caffe submodule, launch training.
 `caffe/build/tools/caffe train -solver [path-to-training-prototxt-file] -weights [path-to-pretrained-googlenet] -gpu [gpuid]`
 
