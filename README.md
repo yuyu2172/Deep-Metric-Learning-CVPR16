@@ -21,13 +21,16 @@ If you find this work useful in your research, please consider citing:
  * Modify and run `compile.m` to mex compile the cpp files used for LMDB generation.
  * Modify `config.m` to set save paths.
  * Run `gen_caffe_dataset_multilabel_m128.m` to start the LMDB generation process.
-3. Create the `.prototxt` file. Please refer to the included `.prototxt` files in `model/` directory for examples.
+3. Create the `train*.prototxt` and `solver*.prototxt` files. Please refer to the included `.prototxt` files in `model/` directory for examples.
 4. Inside the caffe submodule, launch the Caffe training procedure.
 `caffe/build/tools/caffe train -solver [path-to-training-prototxt-file] -weights [path-to-pretrained-googlenet] -gpu [gpuid]`
 
 ## Feature extraction after training
 1. Modify the test set path in `model/extract_googlenet*.prototxt`.
-2. Modify the model and test set path and run `compute_googlenet_distance_matrix_cuda_embeddings_liftedstructsim_softmax_pair_m128.py`.
+2. Modify the model and test set path and run `code/compute_googlenet_distance_matrix_cuda_embeddings_liftedstructsim_softmax_pair_m128.py`.
+
+## Stanford Online Products dataset
+* is coming soon in a couple of weeks.
 
 ## Licence
 MIT Licence
