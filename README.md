@@ -25,5 +25,9 @@ If you find this work useful in your research, please consider citing:
 4. Inside the caffe submodule, launch the Caffe training procedure.
 `caffe/build/tools/caffe train -solver [path-to-training-prototxt-file] -weights [path-to-pretrained-googlenet] -gpu [gpuid]`
 
+## Feature extraction after training
+1. Modify the test set path in `model/extract_googlenet*.prototxt`.
+2. Modify the model and test set path and run `compute_googlenet_distance_matrix_cuda_embeddings_liftedstructsim_softmax_pair_m128.py`.
+
 ## Licence
 MIT Licence
