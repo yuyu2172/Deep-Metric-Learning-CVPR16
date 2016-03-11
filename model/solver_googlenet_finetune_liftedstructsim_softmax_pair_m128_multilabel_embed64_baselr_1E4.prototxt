@@ -1,0 +1,15 @@
+net: "/scail/scratch/group/cvgl/hsong/Deep-Lifting-for-Metric-Learning-CVPR/code/ebay/model/train_val_googlenet_finetune_liftedstructsim_softmax_pair_m128_multilabel_embed64.prototxt"
+test_initialization: false
+# lr for fine-tuning should be lower than when starting from scratch
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 0.96
+# stepsize should also be lower, as we're closer to being done
+stepsize: 32000
+display: 5
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 10000
+snapshot_prefix: "snapshot_cars_googlenet_finetune_liftedstructsim_softmax_pair_m128_multilabel_embed64_baselr_1E4"
+solver_mode: GPU
