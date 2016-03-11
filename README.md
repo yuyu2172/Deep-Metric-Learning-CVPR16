@@ -26,11 +26,12 @@ If you find this work useful in your research, please consider citing:
 `caffe/build/tools/caffe train -solver [path-to-training-prototxt-file] -weights [path-to-pretrained-googlenet] -gpu [gpuid]`
 
 ## Feature extraction after training
+1. Modify and run `code/gen_caffe_validation_imageset.m` to convert the test images to LMDB format.
 1. Modify the test set path in `model/extract_googlenet*.prototxt`.
 2. Modify the model and test set path and run `code/compute_googlenet_distance_matrix_cuda_embeddings_liftedstructsim_softmax_pair_m128.py`.
 
 ## Stanford Online Products dataset
-* is coming soon in a couple of weeks.
+Coming soon in a couple of weeks.
 
 ## Licence
 MIT Licence
