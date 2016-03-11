@@ -30,8 +30,11 @@ If you find this work useful in your research, please consider citing:
 1. Modify the test set path in `model/extract_googlenet*.prototxt`.
 2. Modify the model and test set path and run `code/compute_googlenet_distance_matrix_cuda_embeddings_liftedstructsim_softmax_pair_m128.py`.
 
+## Clustering and Retrieval evaluation code
+Coming soon in two of weeks.
+
 ## Stanford Online Products dataset
-Coming soon in a couple of weeks.
+Coming soon in two of weeks.
 
 ## Licence
 MIT Licence
