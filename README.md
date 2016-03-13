@@ -1,5 +1,5 @@
 # Deep Metric Learning via Lifted Structured Feature Embedding
-This repository has the source code and the Stanford Online Products dataset for the paper "Deep Metric Learning via Lifted Structured Feature Embedding" (CVPR16). The paper preprint is available on [arXiv](http://arxiv.org/abs/1511.06452). 
+This repository has the source code and the Stanford Online Products dataset for the paper "Deep Metric Learning via Lifted Structured Feature Embedding" (CVPR16). The paper preprint is available on [arXiv](http://arxiv.org/abs/1511.06452). If you just need the Caffe code, check out the Github [Submodule](https://github.com/rksltnl/Caffe-Deep-Metric-Learning-CVPR16).
 
 ## Citing this work
 If you find this work useful in your research, please consider citing:
