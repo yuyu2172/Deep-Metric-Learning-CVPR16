@@ -31,7 +31,8 @@ If you find this work useful in your research, please consider citing:
 2. Modify the model and test set path and run `code/compute_googlenet_distance_matrix_cuda_embeddings_liftedstructsim_softmax_pair_m128.py`.
 
 ## Clustering and Retrieval evaluation code
-Coming soon in two of weeks.
+1. Use `code/evaluation/evaluate_clustering.m` to evaluate the clustering performance.
+2. Use `code/evaluation/evaluate_recall.m` to evaluate recall@K for image retrieval.
 
 ## Stanford Online Products dataset
 Coming soon in two of weeks.
