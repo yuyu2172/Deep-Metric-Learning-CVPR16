@@ -30,3 +30,4 @@ conf.training_imageset_path = [path_triplet, '/training_imageset_cars196.lmdb'];
 
 conf.training_set_path_triplet = [path_triplet, '/training_set_triplet.lmdb'];
 conf.validation_set_path_triplet = [path_triplet, '/validation_set_triplet.lmdb'];
+conf.validation_set_path = [path_triplet, '/validation_set_cars196.lmdb'];
