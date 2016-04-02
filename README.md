@@ -35,7 +35,7 @@ If you find this work useful in your research, please consider citing:
 2. Use `code/evaluation/evaluate_recall.m` to evaluate recall@K for image retrieval.
 
 ## Stanford Online Products dataset
-You can download the Stanford Online Products dataset (2.9G) from [here](ftp://cs.stanford.edu/cs/cvgl/Stanford_Online_Products.zip)
+You can download the Stanford Online Products dataset (2.9G) from [ftp](ftp://cs.stanford.edu/cs/cvgl/Stanford_Online_Products.zip)
 
 ## Licence
 MIT Licence
