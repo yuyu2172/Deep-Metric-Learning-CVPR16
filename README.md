@@ -36,6 +36,7 @@ If you find this work useful in your research, please consider citing:
 
 ## Stanford Online Products dataset
 You can download the Stanford Online Products dataset (2.9G) from ftp://cs.stanford.edu/cs/cvgl/Stanford_Online_Products.zip
+* We also have the text meta data for each product images. Please let us know if you're interested in using them.
 
 ## Licence
 MIT Licence
