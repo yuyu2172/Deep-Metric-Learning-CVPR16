@@ -38,6 +38,9 @@ If you find this work useful in your research, please consider citing:
 You can download the Stanford Online Products dataset (2.9G) from ftp://cs.stanford.edu/cs/cvgl/Stanford_Online_Products.zip
 * We also have the text meta data for each product images. Please let us know if you're interested in using them.
 
+## Our Pre-trained Models
+You can download our pre-trained models on the Cars196 dataset, the CUB200 dataset and the Online Products dataset (265M) from ftp://cs.stanford.edu/cs/cvgl/pretrained_models.zip
+
 ## Licence
 MIT Licence
 
