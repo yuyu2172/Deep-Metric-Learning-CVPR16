@@ -17,7 +17,7 @@ If you find this work useful in your research, please consider citing:
 
 ## Training procedure 
 1. Download pretrained GoogLeNet model from [here](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
-2. Download the ILSVRC12 ImageNet mean file for mean subtraction. Refer to Caffe the ImageNet examples. [here](https://github.com/BVLC/caffe/tree/master/examples/imagenet)
+2. Download the ILSVRC12 ImageNet mean file for mean subtraction. Refer to Caffe the ImageNet examples  [here](https://github.com/BVLC/caffe/tree/master/examples/imagenet).
 3. Generate the LMDB file to convert the training set of images to the DB format. Example scripts are in `code/` directory.
  * Modify and run `code/compile.m` to mex compile the cpp files used for LMDB generation.
  * Modify `code/config.m` to set save paths.
