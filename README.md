@@ -15,15 +15,19 @@ If you find this work useful in your research, please consider citing:
 1. Install prerequsites for `Caffe` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
 2. Compile the `Caffe-Deep-Metric-Learning-CVPR16` Github submodule.
 
-## Training procedure 
+## Prerequisites 
 1. Download pretrained GoogLeNet model from [here](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
 2. Download the ILSVRC12 ImageNet mean file for mean subtraction. Refer to Caffe the ImageNet examples  [here](https://github.com/BVLC/caffe/tree/master/examples/imagenet).
-3. Generate the LMDB file to convert the training set of images to the DB format. Example scripts are in `code/` directory.
+3. Modify and run `code/gen_splits.m` to create train/test split.
+4. Modify and run `code/gen_images.m` to prepare the preprocessed images.
+
+## Training Procedure
+1. Generate the LMDB file to convert the training set of images to the DB format. Example scripts are in `code/` directory.
  * Modify and run `code/compile.m` to mex compile the cpp files used for LMDB generation.
  * Modify `code/config.m` to set save paths.
  * Run `code/gen_caffe_dataset_multilabel_m128.m` to start the LMDB generation process.
-4. Create the `model/train*.prototxt` and `model/solver*.prototxt` files. Please refer to the included `*.prototxt` files in `model/` directory for examples. You also need to provide the path to the ImageNet mean file (usually called `imagenet_mean.binaryproto`) you downloaded in step 2.
-5. Inside the caffe submodule, launch the Caffe training procedure.
+2. Create the `model/train*.prototxt` and `model/solver*.prototxt` files. Please refer to the included `*.prototxt` files in `model/` directory for examples. You also need to provide the path to the ImageNet mean file (usually called `imagenet_mean.binaryproto`) you downloaded in step 2.
+3. Inside the caffe submodule, launch the Caffe training procedure.
 `caffe/build/tools/caffe train -solver [path-to-training-prototxt-file] -weights [path-to-pretrained-googlenet] -gpu [gpuid]`
 
 ## Feature extraction after training
